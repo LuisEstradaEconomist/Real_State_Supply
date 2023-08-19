@@ -1,0 +1,14 @@
+
+import requests
+
+
+# =========================================================
+# =========================================================
+#Cambiar entre de paginas
+for page_number in range(1, end_page + 1):
+    url = f'https://example.com/page/{page_number}'  # Replace with the actual URL pattern
+    response = requests.get(url)
+    
+    # Process the response and scrape data from the page here
+    # ...
+
